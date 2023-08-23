@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overlapping Text Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            position: relative;
+        }
+
+        .text-1 {
+            font-size: 20px;
+            color: #333;
+        }
+
+        .text-2 {
+            font-size: 20px;
+            color: #f00;
+            position: absolute;
+            top: 25px;
+            left: 20px;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="text-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet tincidunt nulla, quis
+            cursus orci. Phasellus quis facilisis risus. Donec malesuada eros vel libero interdum, a venenatis justo
+            bibendum. Vivamus a libero quis nisi sollicitudin fringilla.</div>
+        <div class="text-2">Overlapping text for testing purposes. This text will overlap with the Lorem Ipsum text
+            above.</div>
+    </div>
+
+</body>
+
+</html>
